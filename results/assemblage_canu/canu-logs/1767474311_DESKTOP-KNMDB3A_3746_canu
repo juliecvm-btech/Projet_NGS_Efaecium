@@ -1,0 +1,17 @@
+
+###
+###  Reading options from '/home/julievm/miniconda3/envs/ngs_efaecium/bin/canu.defaults'
+###
+
+# Add site specific options (for setting up Grid or limiting memory/threads) here.
+
+###
+###  Reading options from the command line.
+###
+
+genomeSize=2.8m
+useGrid=false
+maxMemory=12
+maxThreads=4
+corOutCoverage=1000
+corMhapSensitivity=high

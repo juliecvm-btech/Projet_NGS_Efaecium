@@ -1,0 +1,25 @@
+# Ignorer les séquences
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+
+# Ignorer les dossiers de données lourdes 
+data/raw/illumina/
+data/raw/pacbio/
+
+# Ignorer les résultats temporaires de Canu
+results/assemblage_canu/efaecium.seqStore/
+results/assemblage_canu/correction/
+results/assemblage_canu/trimming/
+results/assemblage_canu/unitigging/
+results/assemblage_canu/canu-scripts/
+
+# Ignorer les archives non nécessaires
+*.zip
+*.tar.gz
+
+# Système
+.DS_Store
+Thumbs.db
