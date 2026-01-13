@@ -8,6 +8,8 @@
 # Ignorer les dossiers de données lourdes 
 #data/raw/illumina/
 #data/raw/pacbio/
+#data/raw/Nanopore.reads/
+#data/raw/transcriptome/
 
 # Ignorer les résultats temporaires de Canu
 results/assemblage_canu/efaecium.seqStore/

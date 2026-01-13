@@ -1,0 +1,8 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	E745.Pl1	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/fastqc_pacbio/E745.Pl1_fastqc.zip
+FastQC	all_sections	E745.Pl2	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/fastqc_pacbio/E745.Pl2_fastqc.zip
+FastQC	all_sections	E745.Pl3	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/fastqc_pacbio/E745.Pl3_fastqc.zip
+FastQC	all_sections	E745.Pl4	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/fastqc_pacbio/E745.Pl4_fastqc.zip
+FastQC	all_sections	E745.Pl5	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/fastqc_pacbio/E745.Pl5_fastqc.zip
+FastQC	all_sections	E745.Pl6	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/fastqc_pacbio/E745.Pl6_fastqc.zip
+FastQC	all_sections	E754.CHR	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/fastqc_pacbio/E754.CHR_fastqc.zip

@@ -1,0 +1,15 @@
+Sample	FastQC_mqc-generalstats-fastqc-percent_duplicates	FastQC_mqc-generalstats-fastqc-percent_gc	FastQC_mqc-generalstats-fastqc-avg_sequence_length	FastQC_mqc-generalstats-fastqc-median_sequence_length	FastQC_mqc-generalstats-fastqc-percent_fails	FastQC_mqc-generalstats-fastqc-total_sequences
+E745.CHR.paired_dat1	3.201845915779259	38.0	150.0	150	0.0	184330.0
+E745.CHR.paired_dat2	3.008756485531265	38.0	150.0	150	0.0	184330.0
+E745.Pl1.paired_dat1	1.9785378940308505	35.0	150.0	150	0.0	14910.0
+E745.Pl1.paired_dat2	1.9852448021462124	35.0	150.0	150	0.0	14910.0
+E745.Pl2.paired_dat1	2.5925925925925952	36.0	150.0	150	0.0	2160.0
+E745.Pl2.paired_dat2	2.037037037037038	36.0	150.0	150	0.0	2160.0
+E745.Pl3.paired_dat1	1.4516129032258078	30.0	150.0	150	10.0	620.0
+E745.Pl3.paired_dat2	1.4516129032258078	30.0	150.0	150	10.0	620.0
+E745.Pl4.paired_dat1	2.2608695652173907	32.0	150.0	150	0.0	1150.0
+E745.Pl4.paired_dat2	1.5652173913043583	32.0	150.0	150	10.0	1150.0
+E745.Pl5.paired_dat1	1.5531335149863708	35.0	150.0	150	0.0	3670.0
+E745.Pl5.paired_dat2	1.117166212534059	35.0	150.0	150	0.0	3670.0
+E745.Pl6.paired_dat1	1.258581235697946	32.0	150.0	150	0.0	4370.0
+E745.Pl6.paired_dat2	1.1899313501144206	32.0	150.0	150	0.0	4370.0
