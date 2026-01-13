@@ -1,0 +1,8 @@
+Sample	Filename	File type	Encoding	Total Sequences	Total Bases	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	median_sequence_length	basic_statistics	per_base_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+E745.Pl1	E745.Pl1.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	408.0	3.4 Mbp	0.0	1035-23126	36.0	100.0	8378.446078431372	8249	pass	fail	fail	warn	fail	pass	warn	pass	warn	pass
+E745.Pl2	E745.Pl2.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	59.0	499.8 kbp	0.0	1941-15540	37.0	100.0	8465.457627118643	8249	pass	pass	fail	warn	pass	pass	warn	pass	fail	pass
+E745.Pl3	E745.Pl3.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	17.0	116.8 kbp	0.0	50-9310	31.0	100.0	6859.941176470588	7699	pass	pass	fail	fail	fail	pass	warn	pass	fail	pass
+E745.Pl4	E745.Pl4.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	31.0	263.7 kbp	0.0	1662-14121	33.0	100.0	8517.129032258064	8749	pass	pass	fail	fail	pass	pass	warn	pass	fail	pass
+E745.Pl5	E745.Pl5.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	100.0	829.5 kbp	0.0	829-19734	36.0	100.0	8327.68	7749	pass	pass	fail	warn	fail	pass	warn	pass	warn	pass
+E745.Pl6	E745.Pl6.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	119.0	1 Mbp	0.0	1640-18093	33.0	100.0	8417.873949579833	8249	pass	fail	fail	warn	fail	pass	warn	pass	warn	pass
+E754.CHR	E754.CHR.fastq.gz	Conventional base calls	Sanger / Illumina 1.9	5051.0	41.7 Mbp	0.0	50-24727	38.0	100.0	8256.793506236389	7749	pass	fail	fail	warn	fail	pass	warn	pass	pass	pass
