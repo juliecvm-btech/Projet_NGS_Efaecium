@@ -1,0 +1,43 @@
+Command line: /usr/libexec/spades/spades.py	-1	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/trimming/genome_reads/pair/E745.Pl3.val_1.fq.gz	-2	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/trimming/genome_reads/pair/E745.Pl3.val_2.fq.gz	--nanopore	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/Nanopore.reads/E745.Pl3.fastq.gz	-o	/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3	--careful	-t	4	
+
+System information:
+  SPAdes version: 3.15.5
+  Python version: 3.12.3
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+
+Output dir: /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Standard mode
+  For multi-cell/isolate data we recommend to use '--isolate' option; for single-cell MDA data use '--sc'; for metagenomic data use '--meta'; for RNA-Seq use '--rna'.
+  Reads:
+    Library number: 1, library type: paired-end
+      orientation: fr
+      left reads: ['/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/trimming/genome_reads/pair/E745.Pl3.val_1.fq.gz']
+      right reads: ['/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/trimming/genome_reads/pair/E745.Pl3.val_2.fq.gz']
+      interlaced reads: not specified
+      single reads: not specified
+      merged reads: not specified
+    Library number: 2, library type: nanopore
+      left reads: not specified
+      right reads: not specified
+      interlaced reads: not specified
+      single reads: ['/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/Nanopore.reads/E745.Pl3.fastq.gz']
+      merged reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed
+Assembly parameters:
+  k: automatic selection based on read length
+  Repeat resolution is enabled
+  Mismatch careful mode is turned ON
+  MismatchCorrector will be used
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/tmp
+  Threads: 4
+  Memory limit (in Gb): 7
+

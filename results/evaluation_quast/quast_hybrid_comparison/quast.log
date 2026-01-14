@@ -1,0 +1,69 @@
+/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/../software/quast-5.3.0/quast.py results/assembly_hybrid_CHR/contigs.fasta results/assembly_illumina_CHR/contigs.fasta -r data/references/E745.CP014529.1.CHR.fasta -o results/quast_hybrid_comparison -l Hybrid_CHR, Illumina_Only_CHR
+
+Version: 5.3.0, c3eb988a
+
+System information:
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.13.9
+  CPUs number: 8
+
+Started: 2026-01-13 22:52:37
+
+Logging to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_hybrid_comparison/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Reference:
+  /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/references/E745.CP014529.1.CHR.fasta ==> E745.CP014529.1.CHR
+
+Contigs:
+  Pre-processing...
+  1  results/assembly_hybrid_CHR/contigs.fasta ==> Hybrid_CHR
+  2  results/assembly_illumina_CHR/contigs.fasta ==> Illumina_Only_CHR
+
+2026-01-13 22:52:38
+Running Basic statistics processor...
+  Reference genome:
+    E745.CP014529.1.CHR.fasta, length = 2765010, num fragments = 1, GC % = 38.11
+  Contig files: 
+    1  Hybrid_CHR
+    2  Illumina_Only_CHR
+  Calculating N50 and L50...
+    1  Hybrid_CHR, N50 = 2764874, L50 = 1, auN = 2764874.0, Total length = 2764874, GC % = 38.11, # N's per 100 kbp =  0.00
+    2  Illumina_Only_CHR, N50 = 44853, L50 = 16, auN = 57558.4, Total length = 2621879, GC % = 38.03, # N's per 100 kbp =  0.00
+Done.
+
+2026-01-13 22:52:43
+Running Contig analyzer...
+WARNING: Previous try of Minimap2 compilation was unsuccessful! For forced retrying, please remove /mnt/c/Users/julie/NGS_project/software/quast-5.3.0/quast_libs/minimap2/make.failed and restart QUAST. 
+
+ERROR! Compilation of contig aligner software was unsuccessful! QUAST functionality will be limited.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-01-13 22:52:43
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2026-01-13 22:52:44
+RESULTS:
+  Text versions of total report are saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_hybrid_comparison/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_hybrid_comparison/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_hybrid_comparison/report.html
+  Icarus (contig browser) is saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_hybrid_comparison/icarus.html
+  Log is saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_hybrid_comparison/quast.log
+
+Finished: 2026-01-13 22:52:46
+Elapsed time: 0:00:09.754810
+NOTICEs: 2; WARNINGs: 3; non-fatal ERRORs: 1
+
+Thank you for using QUAST!

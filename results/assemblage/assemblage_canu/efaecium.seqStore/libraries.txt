@@ -1,0 +1,9 @@
+ID         technology  name
+---- ----------------  ------------------------------
+1              PacBio  E745.Pl1
+2              PacBio  E745.Pl2
+3              PacBio  E745.Pl3
+4              PacBio  E745.Pl4
+5              PacBio  E745.Pl5
+6              PacBio  E745.Pl6
+7              PacBio  E754.CHR

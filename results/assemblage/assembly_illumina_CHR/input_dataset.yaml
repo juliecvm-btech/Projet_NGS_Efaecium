@@ -1,0 +1,7 @@
+- "left reads":
+  - "/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/illumina/E745.CHR.paired_dat1.fq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/illumina/E745.CHR.paired_dat2.fq.gz"
+  "type": "paired-end"

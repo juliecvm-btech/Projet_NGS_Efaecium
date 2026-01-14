@@ -1,0 +1,83 @@
+–#---
+max read length: 150
+nomerge max read length: 150
+average read length: 150
+average coverage: 10.2303
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/corrected/E745.CHR.paired_dat1.fq.00.0_0.cor.fastq.gz'
+    right reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/corrected/E745.CHR.paired_dat2.fq.00.0_0.cor.fastq.gz'
+    single reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/corrected/E745.CHR.paired_dat_unpaired.00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 150
+      merged read length: 0
+      insert size mean: 199.448
+      insert size deviation: 9.97345
+      insert size left quantile: 187
+      insert size right quantile: 212
+      insert size median: 199
+      insert size mad: 7
+      insert size distribution: { 152: 1, 156: 1, 157: 1, 158: 3, 160: 4, 
+                                  161: 3, 163: 8, 164: 4, 165: 8, 166: 11, 
+                                  167: 21, 168: 36, 169: 29, 170: 54, 171: 51, 
+                                  172: 93, 173: 93, 174: 140, 175: 181, 
+                                  176: 234, 177: 287, 178: 354, 179: 412, 
+                                  180: 542, 181: 627, 182: 747, 183: 925, 
+                                  184: 1086, 185: 1237, 186: 1447, 187: 1674, 
+                                  188: 1815, 189: 2106, 190: 2294, 191: 2449, 
+                                  192: 2663, 193: 2933, 194: 3121, 195: 3140, 
+                                  196: 3431, 197: 3471, 198: 3489, 199: 3582, 
+                                  200: 3538, 201: 3655, 202: 3448, 203: 3381, 
+                                  204: 3160, 205: 3102, 206: 2835, 207: 2631, 
+                                  208: 2523, 209: 2244, 210: 2107, 211: 1893, 
+                                  212: 1634, 213: 1378, 214: 1261, 215: 1025, 
+                                  216: 900, 217: 738, 218: 620, 219: 527, 
+                                  220: 399, 221: 325, 222: 281, 223: 218, 
+                                  224: 172, 225: 125, 226: 117, 227: 82, 
+                                  228: 52, 229: 48, 230: 42, 231: 33, 232: 19, 
+                                  233: 10, 234: 9, 235: 7, 236: 3, 237: 2, 
+                                  238: 4, 239: 3, 241: 1 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/INFO_0'
+        paired read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/paired_0'
+        merged read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/merged_0'
+        single read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/single_0'
+        chunk num:       4
+      single reads mapped: false
+      library index:   0
+      number of reads: 368660
+      total nucleotides: 55298998
+  - type:            nanopore
+    number:          1
+    single reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/Nanopore.reads/E754.CHR.fastq.gz'
+    data:
+      unmerged read length: 24727
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/INFO_1'
+        paired read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/paired_1'
+        merged read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/merged_1'
+        single read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_CHR/.bin_reads/single_1'
+        chunk num:       4
+      single reads mapped: false
+      library index:   1
+      number of reads: 5051
+      total nucleotides: 41713462
+...

@@ -1,0 +1,30 @@
+Assembly	Hybrid_Pl1	Illumina_Only_Pl1
+# contigs (>= 0 bp)	1	86
+# contigs (>= 1000 bp)	1	29
+# contigs (>= 5000 bp)	1	14
+# contigs (>= 10000 bp)	1	7
+# contigs (>= 25000 bp)	1	1
+# contigs (>= 50000 bp)	1	0
+Total length (>= 0 bp)	223644	203619
+Total length (>= 1000 bp)	223644	186747
+Total length (>= 5000 bp)	223644	150019
+Total length (>= 10000 bp)	223644	102842
+Total length (>= 25000 bp)	223644	25067
+Total length (>= 50000 bp)	223644	0
+# contigs	1	37
+Largest contig	223644	25067
+Total length	223644	193070
+Reference length	223688	223688
+GC (%)	35.68	35.42
+Reference GC (%)	35.68	35.68
+N50	223644	10576
+NG50	223644	9598
+N90	223644	2351
+NG90	223644	-
+auN	223644.0	10933.4
+auNG	223600.0	9436.9
+L50	1	7
+LG50	1	8
+L90	1	22
+LG90	1	-
+# N's per 100 kbp	0.00	0.00
