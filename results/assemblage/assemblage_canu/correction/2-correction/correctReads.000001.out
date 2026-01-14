@@ -1,0 +1,14 @@
+
+Found perl:
+   /home/julievm/miniconda3/envs/ngs_efaecium/bin/perl
+   This is perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-thread-multi
+
+Found java:
+   /home/julievm/miniconda3/envs/ngs_efaecium/lib/jvm/bin/java
+   openjdk version "25.0.1-internal" 2025-10-21
+
+Found canu:
+   /home/julievm/miniconda3/envs/ngs_efaecium/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.

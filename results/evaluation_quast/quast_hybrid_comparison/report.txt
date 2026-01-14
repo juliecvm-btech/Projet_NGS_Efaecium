@@ -1,0 +1,32 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    Hybrid_CHR  Illumina_Only_CHR
+# contigs (>= 0 bp)         1           275              
+# contigs (>= 1000 bp)      1           119              
+# contigs (>= 5000 bp)      1           76               
+# contigs (>= 10000 bp)     1           62               
+# contigs (>= 25000 bp)     1           31               
+# contigs (>= 50000 bp)     1           14               
+Total length (>= 0 bp)      2764874     2649827          
+Total length (>= 1000 bp)   2764874     2609636          
+Total length (>= 5000 bp)   2764874     2510237          
+Total length (>= 10000 bp)  2764874     2405418          
+Total length (>= 25000 bp)  2764874     1878131          
+Total length (>= 50000 bp)  2764874     1239116          
+# contigs                   1           137              
+Largest contig              2764874     114326           
+Total length                2764874     2621879          
+Reference length            2765010     2765010          
+GC (%)                      38.11       38.03            
+Reference GC (%)            38.11       38.11            
+N50                         2764874     44853            
+NG50                        2764874     43896            
+N90                         2764874     12466            
+NG90                        2764874     6443             
+auN                         2764874.0   57558.4          
+auNG                        2764738.0   54578.9          
+L50                         1           16               
+LG50                        1           18               
+L90                         1           59               
+LG90                        1           73               
+# N's per 100 kbp           0.00        0.00             

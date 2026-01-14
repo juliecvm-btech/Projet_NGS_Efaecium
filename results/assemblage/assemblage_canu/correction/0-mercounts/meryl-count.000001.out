@@ -1,0 +1,82 @@
+
+Found perl:
+   /home/julievm/miniconda3/envs/ngs_efaecium/bin/perl
+   This is perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-thread-multi
+
+Found java:
+   /home/julievm/miniconda3/envs/ngs_efaecium/lib/jvm/bin/java
+   openjdk version "25.0.1-internal" 2025-10-21
+
+Found canu:
+   /home/julievm/miniconda3/envs/ngs_efaecium/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+
+Found 1 command tree.
+
+Counting 60 (estimated) million canonical 16-mers from 1 input file:
+    canu-seqStore: ../../efaecium.seqStore
+
+
+SIMPLE MODE
+-----------
+
+  16-mers
+    -> 4294967296 entries for counts up to 65535.
+    -> 64 Gbits memory used
+
+  63170422 input bases
+    -> expected max count of 252681, needing 3 extra bits.
+    -> 12 Gbits memory used
+
+  9728 MB memory needed
+
+
+COMPLEX MODE
+------------
+
+prefix     # of   struct   kmers/    segs/      min     data    total
+  bits   prefix   memory   prefix   prefix   memory   memory   memory
+------  -------  -------  -------  -------  -------  -------  -------
+     1     2  P   239 kB    15 MM    14 kS  8192  B   116 MB   116 MB
+     2     4  P   238 kB  7711 kM  7232  S    16 kB   113 MB   113 MB
+     3     8  P   243 kB  3855 kM  3498  S    32 kB   109 MB   109 MB
+     4    16  P   261 kB  1927 kM  1688  S    64 kB   105 MB   105 MB
+     5    32  P   304 kB   963 kM   814  S   128 kB   101 MB   102 MB
+     6    64  P   398 kB   481 kM   392  S   256 kB    98 MB    98 MB
+     7   128  P   593 kB   240 kM   189  S   512 kB    94 MB    95 MB
+     8   256  P   990 kB   120 kM    91  S  1024 kB    91 MB    91 MB
+     9   512  P  1792 kB    60 kM    44  S  2048 kB    88 MB    89 MB
+    10  1024  P  3400 kB    30 kM    21  S  4096 kB    84 MB    87 MB  Best Value!
+    11  2048  P  6624 kB    15 kM    10  S  8192 kB    80 MB    86 MB
+    12  4096  P    12 MB  7712  M     5  S    16 MB    80 MB    92 MB
+    13  8192  P    25 MB  3856  M     3  S    32 MB    96 MB   121 MB
+    14    16 kP    50 MB  1928  M     2  S    64 MB   128 MB   178 MB
+    15    32 kP   101 MB   964  M     1  S   128 MB   128 MB   229 MB
+    16    64 kP   202 MB   482  M     1  S   256 MB   256 MB   458 MB
+    17   128 kP   405 MB   241  M     1  S   512 MB   512 MB   917 MB
+    18   256 kP   810 MB   121  M     1  S  1024 MB  1024 MB  1834 MB
+    19   512 kP  1620 MB    61  M     1  S  2048 MB  2048 MB  3668 MB
+
+
+FINAL CONFIGURATION
+-------------------
+
+Estimated to require 171 MB memory out of 2048 MB allowed.
+Estimated to require 2 batches.
+
+Configured complex mode for 0.167 GB memory per batch, and up to 2 batches.
+
+Start counting with THREADED method.
+Used 0.268 GB / 1.969 GB to store      2093263 kmers; need 0.003 GB to sort        53253 kmers
+Used 0.365 GB / 1.969 GB to store     39767885 kmers; need 0.032 GB to sort       539907 kmers
+
+Input complete.  Writing results to './efaecium.01.meryl.WORKING', using 4 threads.
+finishIteration()--
+
+Finished counting.
+
+Cleaning up.
+
+Bye.

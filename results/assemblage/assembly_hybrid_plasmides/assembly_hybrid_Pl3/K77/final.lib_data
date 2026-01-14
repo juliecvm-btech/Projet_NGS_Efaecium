@@ -1,0 +1,74 @@
+¸---
+max read length: 150
+nomerge max read length: 150
+average read length: 150
+average coverage: 9.80455
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/corrected/E745.Pl3.val_1.fq.00.0_0.cor.fastq.gz'
+    right reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/corrected/E745.Pl3.val_2.fq.00.0_0.cor.fastq.gz'
+    single reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/corrected/E745.Pl3.val__unpaired.00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 150
+      merged read length: 0
+      insert size mean: 200.26
+      insert size deviation: 9.81296
+      insert size left quantile: 189
+      insert size right quantile: 214
+      insert size median: 199
+      insert size mad: 6
+      insert size distribution: { 174: 1, 175: 1, 176: 2, 177: 2, 178: 2, 
+                                  180: 1, 182: 1, 183: 3, 184: 1, 185: 7, 
+                                  186: 4, 187: 7, 188: 5, 189: 13, 190: 9, 
+                                  191: 14, 192: 13, 193: 11, 194: 18, 195: 13, 
+                                  196: 18, 197: 20, 198: 22, 199: 23, 200: 13, 
+                                  201: 22, 202: 9, 203: 22, 204: 11, 205: 13, 
+                                  206: 14, 207: 14, 208: 8, 209: 6, 210: 6, 
+                                  211: 10, 212: 6, 213: 5, 214: 4, 215: 4, 
+                                  216: 6, 217: 5, 218: 4, 219: 3, 220: 3, 
+                                  221: 1, 222: 5, 223: 1, 224: 2, 226: 1, 
+                                  228: 2, 233: 1 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/INFO_0'
+        paired read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/paired_0'
+        merged read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/merged_0'
+        single read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/single_0'
+        chunk num:       4
+      single reads mapped: false
+      library index:   0
+      number of reads: 1240
+      total nucleotides: 186000
+  - type:            nanopore
+    number:          1
+    single reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/Nanopore.reads/E745.Pl3.fastq.gz'
+    data:
+      unmerged read length: 9310
+      merged read length: 0
+      insert size mean: 0
+      insert size deviation: 0
+      insert size left quantile: 0
+      insert size right quantile: 0
+      insert size median: 0
+      insert size mad: 0
+      insert size distribution: {  }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/INFO_1'
+        paired read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/paired_1'
+        merged read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/merged_1'
+        single read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_hybrid_Pl3/.bin_reads/single_1'
+        chunk num:       4
+      single reads mapped: false
+      library index:   1
+      number of reads: 17
+      total nucleotides: 116814
+...

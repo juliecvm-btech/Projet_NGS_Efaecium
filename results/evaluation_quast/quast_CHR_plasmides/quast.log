@@ -1,0 +1,84 @@
+/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/../software/quast-5.3.0/quast.py results/assembly_illumina_CHR/contigs.fasta results/assembly_illumina/Pl1/contigs.fasta results/assembly_illumina/Pl2/contigs.fasta results/assembly_illumina/Pl3/contigs.fasta results/assembly_illumina/Pl4/contigs.fasta results/assembly_illumina/Pl5/contigs.fasta results/assembly_illumina/Pl6/contigs.fasta -r data/references/E745.fasta -o results/quast_report
+
+Version: 5.3.0, c3eb988a
+
+System information:
+  OS: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39 (linux_64)
+  Python version: 3.13.9
+  CPUs number: 8
+
+Started: 2026-01-13 22:11:50
+
+Logging to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_report/quast.log
+NOTICE: Maximum number of threads is set to 2 (use --threads option to set it manually)
+
+CWD: /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Reference:
+  /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/references/E745.fasta ==> E745
+
+Contigs:
+  Pre-processing...
+  1  results/assembly_illumina_CHR/contigs.fasta ==> assembly_illumina_CHR_contigs
+  2  results/assembly_illumina/Pl1/contigs.fasta ==> Pl1_contigs
+  3  results/assembly_illumina/Pl2/contigs.fasta ==> Pl2_contigs
+  4  results/assembly_illumina/Pl3/contigs.fasta ==> Pl3_contigs
+  5  results/assembly_illumina/Pl4/contigs.fasta ==> Pl4_contigs
+  6  results/assembly_illumina/Pl5/contigs.fasta ==> Pl5_contigs
+  7  results/assembly_illumina/Pl6/contigs.fasta ==> Pl6_contigs
+
+2026-01-13 22:11:52
+Running Basic statistics processor...
+  Reference genome:
+    E745.fasta, length = 3168410, num fragments = 7, GC % = 37.70
+  Contig files: 
+    1  assembly_illumina_CHR_contigs
+    2  Pl1_contigs
+    3  Pl2_contigs
+    4  Pl3_contigs
+    5  Pl4_contigs
+    6  Pl5_contigs
+    7  Pl6_contigs
+  Calculating N50 and L50...
+    1  assembly_illumina_CHR_contigs, N50 = 44853, L50 = 16, auN = 57558.4, Total length = 2621879, GC % = 38.03, # N's per 100 kbp =  0.00
+    2  Pl1_contigs, N50 = 10576, L50 = 7, auN = 10933.4, Total length = 193070, GC % = 35.42, # N's per 100 kbp =  0.00
+    3  Pl2_contigs, N50 = 4734, L50 = 3, auN = 5231.4, Total length = 29306, GC % = 35.98, # N's per 100 kbp =  0.00
+    4  Pl3_contigs, N50 = 9306, L50 = 1, auN = 9306.0, Total length = 9306, GC % = 30.78, # N's per 100 kbp =  0.00
+    5  Pl4_contigs, N50 = 5548, L50 = 1, auN = 3602.5, Total length = 10003, GC % = 32.87, # N's per 100 kbp =  0.00
+    6  Pl5_contigs, N50 = 55158, L50 = 1, auN = 55158.0, Total length = 55158, GC % = 35.63, # N's per 100 kbp =  0.00
+    7  Pl6_contigs, N50 = 61793, L50 = 1, auN = 58536.1, Total length = 65461, GC % = 32.05, # N's per 100 kbp =  0.00
+Done.
+
+2026-01-13 22:11:59
+Running Contig analyzer...
+WARNING: Previous try of Minimap2 compilation was unsuccessful! For forced retrying, please remove /mnt/c/Users/julie/NGS_project/software/quast-5.3.0/quast_libs/minimap2/make.failed and restart QUAST. 
+
+ERROR! Compilation of contig aligner software was unsuccessful! QUAST functionality will be limited.
+Failed aligning the contigs for all the assemblies. Only basic stats are going to be evaluated.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-01-13 22:11:59
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2026-01-13 22:12:00
+RESULTS:
+  Text versions of total report are saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_report/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_report/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_report/report.html
+  Icarus (contig browser) is saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_report/icarus.html
+  Log is saved to /mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/quast_report/quast.log
+
+Finished: 2026-01-13 22:12:03
+Elapsed time: 0:00:12.832790
+NOTICEs: 2; WARNINGs: 3; non-fatal ERRORs: 1
+
+Thank you for using QUAST!

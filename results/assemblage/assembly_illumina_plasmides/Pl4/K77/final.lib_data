@@ -1,0 +1,47 @@
+Ú---
+max read length: 150
+nomerge max read length: 150
+average read length: 150
+average coverage: 12.7087
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_illumina/Pl4/corrected/E745.Pl4.paired_dat1.fq.00.0_0.cor.fastq.gz'
+    right reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_illumina/Pl4/corrected/E745.Pl4.paired_dat2.fq.00.0_0.cor.fastq.gz'
+    single reads:
+      - '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_illumina/Pl4/corrected/E745.Pl4.paired_dat_unpaired.00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 150
+      merged read length: 0
+      insert size mean: 199.275
+      insert size deviation: 9.31832
+      insert size left quantile: 187
+      insert size right quantile: 212
+      insert size median: 199
+      insert size mad: 6
+      insert size distribution: { 173: 1, 174: 1, 176: 3, 177: 2, 178: 2, 
+                                  180: 2, 181: 3, 182: 2, 183: 8, 184: 7, 
+                                  185: 8, 186: 8, 187: 8, 188: 9, 189: 12, 
+                                  190: 14, 191: 14, 192: 11, 193: 25, 194: 23, 
+                                  195: 18, 196: 24, 197: 22, 198: 30, 199: 29, 
+                                  200: 16, 201: 27, 202: 20, 203: 20, 204: 14, 
+                                  205: 16, 206: 18, 207: 17, 208: 19, 209: 9, 
+                                  210: 7, 211: 12, 212: 6, 213: 5, 214: 11, 
+                                  215: 6, 216: 7, 217: 5, 218: 4, 219: 3, 
+                                  220: 1, 222: 3, 223: 1, 225: 1, 226: 1 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_illumina/Pl4/.bin_reads/INFO_0'
+        paired read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_illumina/Pl4/.bin_reads/paired_0'
+        merged read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_illumina/Pl4/.bin_reads/merged_0'
+        single read prefix: '/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_illumina/Pl4/.bin_reads/single_0'
+        chunk num:       4
+      single reads mapped: false
+      library index:   0
+      number of reads: 2300
+      total nucleotides: 345000
+...

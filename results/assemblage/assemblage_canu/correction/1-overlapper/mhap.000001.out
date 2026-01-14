@@ -1,0 +1,67 @@
+
+Found perl:
+   /home/julievm/miniconda3/envs/ngs_efaecium/bin/perl
+   This is perl 5, version 32, subversion 1 (v5.32.1) built for x86_64-linux-thread-multi
+
+Found java:
+   /home/julievm/miniconda3/envs/ngs_efaecium/lib/jvm/bin/java
+   openjdk version "25.0.1-internal" 2025-10-21
+
+Found canu:
+   /home/julievm/miniconda3/envs/ngs_efaecium/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+
+Running block 000001 in query 000001
+
+mkfifo: cannot create fifo '000001-pipe': Operation not supported
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 768
+--num-min-matches = 2
+--num-threads = 4
+--ordered-kmer-size = 12
+--ordered-sketch-size = 1536
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.73
+--version = false
+-f = 
+-h = false
+-k = 16
+-p = 
+-q = queries/000001
+-s = ./blocks/000001.dat
+
+Processing files for storage in reverse index...
+Current # sequences loaded and processed from file: 5000...
+Current # sequences loaded and processed from file: 10000...
+Current # sequences loaded and processed from file: 15000...
+Current # sequences stored: 5000...
+Current # sequences stored: 10000...
+Current # sequences stored: 15000...
+Stored 15290 sequences in the index.
+Processed 15290 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 7.500948706000001
+Time (s) to score and output to self: 21.770855618000002
+Total scoring time (s): 21.779348560000003
+Total time (s): 29.281091467000003
+MinHash search time (s): 8.229465233
+Total matches found: 389306
+Average number of matches per lookup: 50.922956180510134
+Average number of table elements processed per lookup: 2687.1476782210593
+Average number of table elements processed per match: 52.76888617180316
+Average % of hashed sequences hit per lookup: 1.3495177815771047
+Average % of hashed sequences hit that are matches: 24.67899731153315
+Average % of hashed sequences fully compared that are matches: 93.10244219749944
