@@ -2,8 +2,14 @@ Sample	Filename	File type	Encoding	Total Sequences	Total Bases	Sequences flagged
 E745.CHR.val_1	E745.CHR.val_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	184328.0	27.6 Mbp	0.0	42-150	38.0	96.79817393273721	149.99274120046874	150	pass	pass	pass	pass	pass	pass	warn	pass	pass	pass
 E745.CHR.val_2	E745.CHR.val_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	184328.0	27.6 Mbp	0.0	36-150	38.0	96.99126216688676	149.98238466212405	150	pass	pass	pass	pass	pass	pass	warn	pass	pass	pass
 E745.Pl1.val_1	E745.Pl1.val_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	14908.0	2.2 Mbp	0.0	61-150	35.0	98.02119667292729	149.99396297290045	150	pass	pass	pass	pass	pass	pass	warn	pass	pass	pass
+E745.Pl1.val_2	E745.Pl1.val_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	14908.0	2.2 Mbp	0.0	42-150	35.0	98.01448886503891	149.975181110813	150	pass	pass	pass	pass	pass	pass	warn	pass	pass	pass
 E745.Pl2.val_1	E745.Pl2.val_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	2160.0	324 kbp	0.0	150.0	36.0	97.4074074074074	150.0	150	pass	pass	pass	pass	pass	pass	pass	pass	warn	pass
+E745.Pl2.val_2	E745.Pl2.val_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	2160.0	323.9 kbp	0.0	101-150	36.0	97.96296296296296	149.97685185185185	150	pass	pass	pass	pass	warn	pass	warn	pass	warn	pass
 E745.Pl3.val_1	E745.Pl3.val_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	620.0	93 kbp	0.0	150.0	30.0	98.54838709677419	150.0	150	pass	pass	pass	pass	fail	pass	pass	pass	warn	pass
+E745.Pl3.val_2	E745.Pl3.val_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	620.0	93 kbp	0.0	150.0	30.0	98.54838709677419	150.0	150	pass	pass	pass	pass	fail	pass	pass	pass	warn	pass
 E745.Pl4.val_1	E745.Pl4.val_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	1150.0	172.5 kbp	0.0	150.0	32.0	97.73913043478261	150.0	150	pass	pass	pass	pass	warn	pass	pass	pass	warn	pass
+E745.Pl4.val_2	E745.Pl4.val_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	1150.0	172.4 kbp	0.0	87-150	32.0	98.43478260869564	149.94434782608695	150	pass	pass	pass	pass	fail	pass	warn	pass	warn	pass
 E745.Pl5.val_1	E745.Pl5.val_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	3670.0	550.4 kbp	0.0	54-150	35.0	98.44686648501363	149.97384196185286	150	pass	pass	pass	pass	pass	pass	warn	pass	pass	pass
+E745.Pl5.val_2	E745.Pl5.val_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	3670.0	550.4 kbp	0.0	83-150	35.0	98.88283378746594	149.98147138964578	150	pass	pass	pass	pass	pass	pass	warn	pass	pass	pass
 E745.Pl6.val_1	E745.Pl6.val_1.fq.gz	Conventional base calls	Sanger / Illumina 1.9	4370.0	655.4 kbp	0.0	90-150	32.0	98.74141876430205	149.9862700228833	150	pass	pass	pass	pass	pass	pass	warn	pass	pass	pass
+E745.Pl6.val_2	E745.Pl6.val_2.fq.gz	Conventional base calls	Sanger / Illumina 1.9	4370.0	655.5 kbp	0.0	150.0	32.0	98.81006864988558	150.0	150	pass	pass	pass	pass	pass	pass	pass	pass	pass	pass
