@@ -1,0 +1,32 @@
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    Pilon_Polished  Draft_SuperHybrid
+# contigs (>= 0 bp)         7               7                
+# contigs (>= 1000 bp)      7               7                
+# contigs (>= 5000 bp)      7               7                
+# contigs (>= 10000 bp)     6               6                
+# contigs (>= 25000 bp)     5               5                
+# contigs (>= 50000 bp)     4               4                
+Total length (>= 0 bp)      3165662         3165659          
+Total length (>= 1000 bp)   3165662         3165659          
+Total length (>= 5000 bp)   3165662         3165659          
+Total length (>= 10000 bp)  3156356         3156353          
+Total length (>= 25000 bp)  3140962         3140959          
+Total length (>= 50000 bp)  3109165         3109162          
+# contigs                   7               7                
+Largest contig              2764874         2764874          
+Total length                3165662         3165659          
+Reference length            3168410         3168410          
+GC (%)                      37.70           37.70            
+Reference GC (%)            37.70           37.70            
+N50                         2764874         2764874          
+NG50                        2764874         2764874          
+N90                         223647          223644           
+NG90                        223647          223644           
+auN                         2433365.2       2433367.1        
+auNG                        2431254.7       2431254.3        
+L50                         1               1                
+LG50                        1               1                
+L90                         2               2                
+LG90                        2               2                
+# N's per 100 kbp           0.00            0.00             

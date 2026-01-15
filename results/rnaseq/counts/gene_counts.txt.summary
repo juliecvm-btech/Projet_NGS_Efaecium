@@ -1,0 +1,15 @@
+Status	results/rnaseq/alignment/ERR1797969_Serum.bam	results/rnaseq/alignment/ERR1797970_Serum.bam	results/rnaseq/alignment/ERR1797971_Serum.bam	results/rnaseq/alignment/ERR1797972_BHI.bam	results/rnaseq/alignment/ERR1797973_BHI.bam	results/rnaseq/alignment/ERR1797974_BHI.bam
+Assigned	167972	193932	181041	244081	242499	371340
+Unassigned_Unmapped	3070	3197	3296	3131	2987	14391
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	0	0	0	0	0	0
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	85848	91535	92602	20003	19568	48866
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	6906	8252	7467	11717	12236	16813

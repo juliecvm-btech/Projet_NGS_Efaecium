@@ -25,3 +25,29 @@ results/assemblage_canu/canu-scripts/
 # Système
 .DS_Store
 Thumbs.db
+
+# Alignement et Indexation 
+
+# Ignorer les fichiers d'alignement intermédiaires non compressés
+*.sam
+*.bai
+
+# Ignorer les index de Bowtie2 (Fichiers binaires lourds)
+*.bt2
+
+# Ignorer les index BWA 
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+
+# Résultats Prokka et Logs
+
+# Je garde les .gff et .gbk, mais j'ignore les logs d'erreurs
+*.log
+*.err
+*.out
+
+# Ignorer les dossiers temporaires de Prokka 
+fixed_fasta/

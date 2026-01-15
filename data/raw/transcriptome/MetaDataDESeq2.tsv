@@ -1,0 +1,7 @@
+sample_id	filename	condition
+ERR1797969	ERR1797969_counts.txt	RNA-Seq_Serum_1
+ERR1797970	ERR1797970_counts.txt	RNA-Seq_Serum_2
+ERR1797971	ERR1797971_counts.txt	RNA-Seq_Serum_3
+ERR1797972	ERR1797972_counts.txt	RNA-Seq_BHI_1
+ERR1797973	ERR1797973_counts.txt	RNA-Seq_BHI_2
+ERR1797974	ERR1797974_counts.txt	RNA-Seq_BHI_3

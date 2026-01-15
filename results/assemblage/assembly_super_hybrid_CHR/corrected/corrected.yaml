@@ -1,0 +1,17 @@
+- "left reads":
+  - "/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_super_hybrid_CHR/corrected/E745.CHR.val_1.fq.00.0_0.cor.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_super_hybrid_CHR/corrected/E745.CHR.val_2.fq.00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/results/assembly_super_hybrid_CHR/corrected/E745.CHR.val__unpaired.00.0_0.cor.fastq.gz"
+  "type": "paired-end"
+- "number": !!int "1"
+  "single reads":
+  - "/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/Nanopore.reads/E754.CHR.fastq.gz"
+  "type": "nanopore"
+- "number": !!int "1"
+  "single reads":
+  - "/mnt/c/Users/julie/NGS_project/Projet_Genomique_Efaecium/data/raw/pacbio/E754.CHR.fastq.gz"
+  "type": "pacbio"
