@@ -1,0 +1,8 @@
+Fonction Biologique;Gène ;ID Prokka;Log2 Fold Change;P-value ajustée;Régulation
+Biosynthèse purine;PurH;MJEHNMBL_00841;7,77;6.079697e-129;? Surexprimé
+Biosynthèse purine;PurD;MJEHNMBL_00842;9,03;5.16e-86  ;? Surexprimé
+Biosynthèse pyrimidine;pyrK_2;MJEHNMBL_00985 ;1,99;9.67e-03;? Surexprimé
+Biosynthèse pyrimidine;pyrF;MJEHNMBL_00987  ;1,12;3.83e-02;? Surexprimé
+Biosynthèse pyrimidine;pyrE;MJEHNMBL_00988;1,02;2.78e-02 ;? Surexprimé
+Résistance;vanA;MJEHNMBL_02987;1,52;3.58e-09 ;? Surexprimé
+;;;;;
