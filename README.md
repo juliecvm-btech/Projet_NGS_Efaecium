@@ -44,17 +44,17 @@ Les données brutes de séquençage proviennent de l'étude de référence. Il s
 ## Logiciels et Environnement
 Le projet a été réalisé sous environnement Linux (Ubuntu) et RStudio.
 
-**Contrôle Qualité** : FastQC/Multiqc [v0.12.1]/[v1.18]
-**Nettoyage** : Trimmomatic [v0.39] 
-**Alignement (Polishing)** : BWA (bwa-mem) [v0.7.17 -r1188] 
-**Correction** : Pilon [v1.24] 
-**Assemblage** : SPAdes [v3.15.5] 
-**Qualité Assemblage** : QUAST [v5.2.0] 
-**Annotation** : Prokka [v1.13] 
-**Visualisation** : SnapGene Viewer [v8.2.2] 
-**Alignement (RNA-seq)** : Bowtie2 [v2.5.4] 
-**Manipulation BAM** : Samtools [v1.19.2] 
-**Comptage** : FeatureCounts (Subread) [v2.1.1] 
+**Contrôle Qualité** : FastQC/Multiqc [v0.12.1]/[v1.18]  
+**Nettoyage** : Trimmomatic [v0.39]   
+**Alignement (Polishing)** : BWA (bwa-mem) [v0.7.17 -r1188]   
+**Correction** : Pilon [v1.24]  
+**Assemblage** : SPAdes [v3.15.5]   
+**Qualité Assemblage** : QUAST [v5.2.0]  
+**Annotation** : Prokka [v1.13]  
+**Visualisation** : SnapGene Viewer [v8.2.2]  
+**Alignement (RNA-seq)** : Bowtie2 [v2.5.4]   
+**Manipulation BAM** : Samtools [v1.19.2]   
+**Comptage** : FeatureCounts (Subread) [v2.1.1]   
 **Analyse Stat.** : R (DESeq2) [v1.50.2] 
 
 ---
